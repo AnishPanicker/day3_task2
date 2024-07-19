@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biking Race Registration</title>
+    <link rel="stylesheet" href="stylesbike.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>Biking Race Registration</h1>
+        <form id="registrationForm">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name"  required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email"  required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="number" id="phone"  required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob"  required>
+                <p id="message"></p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Race Details</legend>
+
+                
+
+                <label for="tshirt">T-Shirt Size:</label>
+                <select id="tshirt" name="tshirt" required>
+                    <option value="s">Small</option>
+                    <option value="m">Medium</option>
+                    <option value="l">Large</option>
+                    <option value="xl">Extra Large</option>
+                </select>
+                
+                <label for="State">State:</label>
+                <input type="text" id="State"  required>
+
+                
+                <label for="District">District:</label>
+                <input type="text" id="District"  required>
+                <p id="messageTwo"></p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Emergency Contact</legend>
+
+                <label for="emergencyName">Emergency Contact Name:</label>
+                <input type="text" id="emergencyName"  required>
+
+                <label for="emergencyPhone">Emergency Contact Phone:</label>
+                <input type="number" id="emergencyPhone"  required>
+            </fieldset>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script src="script.js"></script> 
+</html>

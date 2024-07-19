@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Font style for the page */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(to right, #f4f4f4, #e0e0e0); 
+    
+}
+
+.container {
+    background: linear-gradient(to right, #1f1e1e, #f7f4f4); 
+    padding: 20px; 
+    border-radius: 8px; /* Rounded corners */
+    max-width: 500px; 
+    width: 100%; 
+}
+
+h1,label ,legend{
+    margin-bottom: 20px; /* Space below the heading */
+    color: #ebedee; /* Blue color for the heading */
+}
+
+fieldset {
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    
+}
+
+legend {
+    font-weight: bold; 
+    padding: 0 10px; 
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px; 
+
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="date"],select {
+    width: 90%; /* Full width of the container */
+    padding: 8px; /* Space inside the input field */
+    margin-bottom: 15px; /* Space below the input field */
+    border: 5px solid #f0ebeb; /* Light gray border */
+    border-radius: 10px; /* Rounded corners for input fields */
+}
+
+button {
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 4px; 
+    background-color: #007bff; 
+    color: white; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
